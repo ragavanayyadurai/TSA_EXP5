@@ -7,12 +7,11 @@
 To Illustrates how to perform time series analysis and decomposition on the Summer olympic medals.
 
 ### ALGORITHM:
-
-1.Load the dataset and inspect the columns and initial rows.
-2.Convert the 'Year' column to datetime format and set it as the index.
-3.Create the 'Total_Medals' column if it doesn't exist by summing 'Gold', 'Silver', and 'Bronze'.
-4.Perform seasonal decomposition on the 'Total_Medals' data.
-5.Plot and display the original data, seasonal component, trend component, and residuals.
+1. Load the dataset and inspect the columns and initial rows.
+2. Convert the 'Year' column to datetime format and set it as the index.
+3. Create the 'Total_Medals' column if it doesn't exist by summing 'Gold', 'Silver', and 'Bronze'.
+4. Perform seasonal decomposition on the 'Total_Medals' data.
+5. Plot and display the original data, seasonal component, trend component, and residuals.
 ### PROGRAM
 
 ```python
